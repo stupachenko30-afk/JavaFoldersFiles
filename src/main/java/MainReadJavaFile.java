@@ -19,6 +19,9 @@ public class MainReadJavaFile {
             String line = br.readLine();
             System.out.println(line);
 
+            line = br.readLine();
+            System.out.println(line);
+
             br.close();
 
         } catch (IOException e) {
